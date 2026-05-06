@@ -15,6 +15,7 @@ This index links to all reusable templates and checklists used across the OctoAc
 | [Weekly Status Update](templates/weekly-status-update-template.md) | Structured stakeholder progress report | Execution |
 | [Release Readiness Checklist](templates/release-readiness-checklist.md) | Go/no-go verification before every deployment | Release |
 | [Retrospective Action Items](templates/retrospective-action-items-template.md) | Capture improvement actions from retrospectives | Retrospective |
+| [Role Engagement Checklist](templates/role-engagement-checklist.md) | Confirm which roles are needed and when across the lifecycle | Initiation → Planning |
 
 ---
 
@@ -35,4 +36,4 @@ This index links to all reusable templates and checklists used across the OctoAc
 - [Risk Management & Communication](octoacme-risks-and-communication.md) — References the RAID Log and escalation paths.
 - [Release & Deployment](octoacme-release-and-deployment.md) — References the Release Readiness Checklist.
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — References the Retrospective Action Items template.
-- [Roles & Personas](octoacme-roles-and-personas.md) — Defines the roles referenced in RACI and other templates.
+- [Roles & Personas](octoacme-roles-and-personas.md) — Defines the roles referenced in RACI and other templates. The [Role Engagement Checklist](templates/role-engagement-checklist.md) is the companion checklist for confirming role assignments on a project.
