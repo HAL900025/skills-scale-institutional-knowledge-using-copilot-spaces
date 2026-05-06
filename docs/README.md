@@ -33,11 +33,6 @@ Initiation → Planning → Execution & Tracking → Release & Deployment → Re
 | **Site Reliability / Operations (SRE)** | Ensure system reliability, own incident response for operational events, and manage deployment pipelines. |
 | **Customer Support / Success** | Surface customer feedback; communicate product changes; triage customer-impacting issues. |
 | **Stakeholder / Sponsor** | Provide strategic direction, approve charters and major decisions, and remove organizational blockers. |
-| **Change Manager** | Own the organizational change management process; assess people-side impacts, develop communication and training plans, and measure adoption. |
-| **Data Analyst** | Define and track KPIs and success metrics; deliver data-driven insights to support prioritization and decision-making. |
-| **Legal / Compliance Advisor** | Ensure deliverables and processes meet legal and regulatory requirements; review contracts, licenses, and compliance controls. |
-| **Community Manager** | Build and engage the external user community; surface community feedback and coordinate public-facing communications. |
-| **AI / ML Lead** | Lead AI/ML solution design, responsible AI practices, and model lifecycle management for AI-enabled initiatives. |
 
 _See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptions including responsibilities, goals, and interaction points._
 
@@ -51,7 +46,7 @@ _See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptio
 - [Release & Deployment](octoacme-release-and-deployment.md) — Pre-release requirements, deployment checklist, rollback playbook, and release notes template.
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — Structure for running retrospectives and tracking improvement action items.
 - [Roles & Personas](octoacme-roles-and-personas.md) — Detailed responsibilities and communication patterns for each role.
-- [Templates & Checklists](octoacme-templates-and-checklists.md) — Index of all reusable templates including RACI, RAID log, decision log, status update, release readiness checklist, retrospective action items, and the role engagement checklist.
+- [Templates & Checklists](octoacme-templates-and-checklists.md) — Index of all reusable templates including RACI, RAID log, decision log, status update, release readiness checklist, and retrospective action items.
 
 ## Contributing / Updating These Docs
 
