@@ -1,6 +1,6 @@
 # Weekly Status Update: [Project Name] — Week of [YYYY-MM-DD]
 
-> **Usage:** Complete this template every week and share with stakeholders. Aim for brevity — use bullet points and tables. Link to supporting artefacts rather than duplicating content.
+> **Usage:** Complete this template every week and share with stakeholders. Aim for brevity — use bullet points and tables. Link to supporting artifacts rather than duplicating content.
 
 ---
 
