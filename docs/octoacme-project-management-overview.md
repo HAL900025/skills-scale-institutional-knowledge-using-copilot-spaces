@@ -25,6 +25,11 @@ Applies to all cross-functional projects that deliver product features, services
 - Site Reliability / Operations: ensure system reliability; own operational incident response.
 - Customer Support / Success: surface customer feedback; communicate product changes.
 - Stakeholders / Sponsors: provide direction, approvals, and remove organizational blockers.
+- Change Manager: own the change management process; assess people-side impacts and drive adoption.
+- Data Analyst: define KPIs, deliver data insights, and support evidence-based decision-making.
+- Legal / Compliance Advisor: ensure legal and regulatory compliance; review contracts and compliance controls.
+- Community Manager: engage the external user community; surface community feedback and coordinate public communications.
+- AI / ML Lead: lead AI/ML solution design, responsible AI practices, and model lifecycle for AI-enabled work.
 
 _See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptions._
 
@@ -39,6 +44,7 @@ _See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptio
 - Weekly Status Update — see [Weekly Status Update Template](templates/weekly-status-update-template.md)
 - Release Readiness Checklist — see [Release Readiness Checklist](templates/release-readiness-checklist.md)
 - Retrospective notes and action items — see [Retrospective Action Items Template](templates/retrospective-action-items-template.md)
+- Role Engagement Checklist — see [Role Engagement Checklist](templates/role-engagement-checklist.md)
 
 _See [Templates & Checklists](octoacme-templates-and-checklists.md) for the full index._
 
