@@ -16,17 +16,31 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Tech Lead / Engineering Lead: owns technical architecture and engineering standards.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA / Test Engineer: design test plans, execute testing, and provide quality sign-off.
+- UX Designer / Researcher: champion user experience; conduct research and create designs.
+- Security Lead: embed security practices; own security incident response.
+- Release Manager: orchestrate releases; own go/no-go decisions.
+- Site Reliability / Operations: ensure system reliability; own operational incident response.
+- Customer Support / Success: surface customer feedback; communicate product changes.
+- Stakeholders / Sponsors: provide direction, approvals, and remove organizational blockers.
+
+_See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptions._
 
 ## Key Artifacts
-- Project Charter / One-pager
+- Project Charter / One-pager — see [Project One-Pager Template](templates/project-one-pager-template.md)
+- RACI Matrix — see [RACI Template](templates/raci-template.md)
+- RAID Log (Risks, Assumptions, Issues, Dependencies) — see [RAID Log Template](templates/raid-log-template.md)
+- Decision Log — see [Decision Log Template](templates/decision-log-template.md)
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+- Weekly Status Update — see [Weekly Status Update Template](templates/weekly-status-update-template.md)
+- Release Readiness Checklist — see [Release Readiness Checklist](templates/release-readiness-checklist.md)
+- Retrospective notes and action items — see [Retrospective Action Items Template](templates/retrospective-action-items-template.md)
+
+_See [Templates & Checklists](octoacme-templates-and-checklists.md) for the full index._
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.

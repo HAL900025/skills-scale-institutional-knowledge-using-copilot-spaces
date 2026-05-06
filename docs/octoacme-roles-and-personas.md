@@ -75,7 +75,274 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## QA / Test Engineer
+
+### Role Summary
+QA / Test Engineers own the quality assurance strategy and execution across the delivery lifecycle. They design test plans, execute manual and automated tests, and act as the final quality gate before any release.
+
+### Responsibilities
+- Design and maintain test plans, test cases, and automated test suites
+- Execute functional, regression, integration, and exploratory testing
+- Track and triage defects; validate bug fixes before closure
+- Define and uphold the Definition of Done and acceptance criteria validation
+- Contribute to release readiness assessments and sign-off decisions
+- Identify and document quality risks early in the planning cycle
+
+### Goals
+- Prevent defects from reaching production
+- Enable fast, confident releases through reliable automation
+- Provide objective quality signals to the team and stakeholders
+
+### Typical Communication
+- Daily standups and sprint reviews
+- Bug reports and test result summaries
+- Release readiness sign-off in the release checklist
+
+### Interactions with Existing Roles
+- **Developers**: Review acceptance criteria together; QA unblocks devs by clarifying test coverage gaps and validating fixes quickly.
+- **Product Managers**: Align on acceptance criteria and edge cases; QA flags scope-impacting quality risks.
+- **Project Managers**: Report test progress and defect trends in weekly status updates; flag blockers that affect release timelines.
+- **Release Manager**: Provide formal sign-off or raise blockers in the release readiness checklist before any deployment.
+- **Tech Lead**: Collaborate on test automation architecture and tooling decisions.
+
+---
+
+## UX Designer / Researcher
+
+### Role Summary
+UX Designers and Researchers champion the user perspective throughout the product lifecycle. They translate user needs and business goals into intuitive, accessible experiences, and validate designs through research.
+
+### Responsibilities
+- Conduct user research (interviews, usability studies, surveys) to inform design decisions
+- Create wireframes, prototypes, and design specifications
+- Maintain a consistent design system and accessibility standards
+- Collaborate on acceptance criteria to include usability requirements
+- Present research findings to stakeholders and the product team
+- Iterate designs based on user feedback and analytics
+
+### Goals
+- Deliver experiences that are intuitive, accessible, and valued by users
+- Reduce rework by validating design decisions before development begins
+- Ensure user perspectives inform roadmap and prioritization decisions
+
+### Typical Communication
+- Design reviews and critiques with Product and Engineering
+- Research readouts to stakeholders and Product Managers
+- Annotated design specs shared with Developers
+- Usability test reports during and after releases
+
+### Interactions with Existing Roles
+- **Product Managers**: Co-own the user problem statement; translate business requirements into user stories with usability acceptance criteria.
+- **Developers**: Provide detailed design specs and answer implementation questions; review built UIs against design intent before QA.
+- **QA / Test Engineers**: Collaborate on usability test cases; QA checks UI against design specs during testing.
+- **Project Managers**: Flag design dependencies and research timelines that affect project scheduling.
+- **Stakeholders**: Present research findings and design proposals to gain alignment and approval.
+
+---
+
+## Tech Lead / Engineering Lead
+
+### Role Summary
+The Tech Lead provides technical direction and architectural leadership for the delivery team. They bridge engineering concerns with product priorities, ensuring technical quality, scalability, and maintainability of delivered work.
+
+### Responsibilities
+- Own technical architecture decisions and document them in decision logs
+- Set and enforce coding standards, review practices, and engineering best practices
+- Break down complex technical work and support developer estimates
+- Identify and mitigate technical risks and dependencies
+- Facilitate technical design reviews and cross-team engineering alignment
+- Partner with Security Lead on secure-by-design practices
+- Mentor developers and grow technical capability on the team
+
+### Goals
+- Deliver technically sound, scalable, and maintainable systems
+- Reduce technical debt and unplanned work through proactive design
+- Align engineering velocity with product delivery goals
+
+### Typical Communication
+- Technical design docs and Architecture Decision Records (ADRs)
+- Code review feedback and engineering sync meetings
+- Risk and dependency entries in the RAID log
+- Escalation to Project Manager when technical blockers affect timelines
+
+### Interactions with Existing Roles
+- **Developers**: Direct partner in daily technical decisions; provides guidance, unblocks, and reviews work.
+- **Product Managers**: Translate technical constraints into terms the product team can use for prioritization.
+- **Project Managers**: Surface technical risks, timeline impacts, and resource needs; co-own the RAID log.
+- **Security Lead**: Collaborate on threat modelling and secure design before implementation begins.
+- **QA / Test Engineers**: Define testability requirements and support automation architecture.
+- **Release Manager**: Confirm technical readiness and deployment approach before releases.
+
+---
+
+## Security Lead
+
+### Role Summary
+The Security Lead owns the security posture of delivered products and systems. They embed security practices throughout the development lifecycle (DevSecOps), lead incident response for security events, and ensure the team meets regulatory and compliance requirements.
+
+### Responsibilities
+- Conduct threat modelling and security reviews during planning and design phases
+- Define and champion secure coding standards and DevSecOps tooling (SAST, DAST, dependency scanning)
+- Review and approve security-sensitive architecture decisions
+- Own the security escalation path and incident response runbook
+- Coordinate with external auditors, compliance teams, and legal as needed
+- Track and prioritize security vulnerabilities in the risk register
+
+### Goals
+- Prevent security vulnerabilities from reaching production
+- Enable fast response and containment when security incidents occur
+- Build a culture of security awareness across the engineering team
+
+### Typical Communication
+- Security review sign-off in the release readiness checklist
+- Security incident communications following the incident comms template
+- Risk register entries for open vulnerabilities
+- Periodic security briefings to stakeholders and leadership
+
+### Interactions with Existing Roles
+- **Tech Lead**: Co-lead threat modelling and architecture reviews; agree on security controls integrated into the development workflow.
+- **Developers**: Provide secure coding guidance; review code for security issues and advise on remediations.
+- **Project Managers**: Log security risks in the RAID log; surface timeline impacts when security issues must be resolved before release.
+- **Release Manager**: Provide security sign-off in the release readiness checklist; raise blockers when vulnerabilities are unresolved.
+- **QA / Test Engineers**: Coordinate security test cases (penetration tests, OWASP checks) as part of the test plan.
+- **Site Reliability / Operations**: Collaborate on incident detection, response, and post-incident review for security events.
+
+---
+
+## Release Manager
+
+### Role Summary
+The Release Manager orchestrates the end-to-end release process, ensuring that all readiness criteria are met and that deployments occur safely, predictably, and with clear communication to all stakeholders.
+
+### Responsibilities
+- Own the release calendar and coordinate release windows with all involved teams
+- Facilitate the release readiness checklist and go/no-go decision gate
+- Coordinate deployment activities across Engineering, Ops, and QA
+- Communicate release status, scope, and rollback plans to stakeholders
+- Maintain the release notes and post-deployment verification process
+- Lead post-release retrospectives for release process improvement
+
+### Goals
+- Achieve zero-surprise releases through clear preparation and communication
+- Minimize production incidents caused by deployment issues
+- Build a repeatable, low-friction release process
+
+### Typical Communication
+- Release readiness checklist and go/no-go meeting agenda
+- Release notes and deployment announcements
+- Post-deployment status updates to stakeholders
+- Escalation to leadership if a release must be delayed or rolled back
+
+### Interactions with Existing Roles
+- **Project Managers**: Align release dates with project milestones; coordinate schedule changes and stakeholder communications.
+- **Developers / Tech Lead**: Confirm code freeze, deployment steps, feature flags, and rollback procedures.
+- **QA / Test Engineers**: Obtain test sign-off and verify that all acceptance criteria are met before go/no-go.
+- **Security Lead**: Ensure security sign-off is included in the release readiness checklist.
+- **Site Reliability / Operations**: Coordinate deployment execution and monitoring during and after release.
+- **Product Managers**: Agree on release scope and ensure release notes accurately reflect delivered value.
+
+---
+
+## Site Reliability / Operations
+
+### Role Summary
+Site Reliability Engineers (SREs) and Operations staff ensure that systems are reliable, performant, and observable in production. They partner with engineering to build operational readiness into products from the start.
+
+### Responsibilities
+- Define and monitor Service Level Objectives (SLOs) and Service Level Indicators (SLIs)
+- Manage infrastructure, deployment pipelines, and operational tooling
+- Own incident response runbooks and lead incident management for operational events
+- Conduct post-incident reviews (PIRs) and drive systemic improvements
+- Review architectures for operational readiness, scalability, and observability
+- Collaborate with Engineering on on-call rotation and escalation paths
+
+### Goals
+- Achieve and maintain agreed reliability and availability targets
+- Reduce mean time to detect (MTTD) and mean time to recover (MTTR) for incidents
+- Eliminate toil through automation and operational improvements
+
+### Typical Communication
+- Incident reports and post-incident review (PIR) documents
+- SLO/SLI dashboards shared with stakeholders
+- Operational readiness reviews before releases
+- On-call handoffs and incident comms during active incidents
+
+### Interactions with Existing Roles
+- **Tech Lead**: Review infrastructure and architecture designs for operability, scalability, and observability requirements.
+- **Release Manager**: Execute and monitor deployments; provide operational sign-off in the release readiness checklist.
+- **Security Lead**: Collaborate on security incident detection and response; contribute to operational security controls.
+- **Project Managers**: Surface operational risks and infrastructure dependencies in the RAID log.
+- **Developers**: Partner on observability (logging, metrics, tracing) and on-call readiness standards.
+
+---
+
+## Customer Support / Success
+
+### Role Summary
+Customer Support and Customer Success roles act as the voice of the customer within the project team. They surface real-world feedback, help prioritize post-launch issues, and ensure customers derive value from delivered features.
+
+### Responsibilities
+- Collect and synthesize customer feedback, bug reports, and feature requests
+- Triage and escalate critical customer-impacting issues to Engineering and Product
+- Contribute customer impact assessments to the risk register and prioritization decisions
+- Communicate product changes and known issues to customers proactively
+- Partner with QA on user acceptance testing (UAT) and edge case identification
+- Provide input to release notes and customer-facing documentation
+
+### Goals
+- Ensure customers are aware of changes that affect them
+- Reduce customer churn and escalations through proactive communication and quality
+- Close the feedback loop between customers and the product team
+
+### Typical Communication
+- Customer escalation reports and impact summaries
+- Input to release notes and customer announcements
+- Feedback sessions with Product Managers and UX Researchers
+- Post-release customer satisfaction assessments
+
+### Interactions with Existing Roles
+- **Product Managers**: Share customer feedback and escalations to inform backlog prioritization and roadmap decisions.
+- **QA / Test Engineers**: Provide customer-reported test scenarios and participate in UAT.
+- **Release Manager**: Review customer-facing release notes before publication; flag customer-impacting rollback scenarios.
+- **Project Managers**: Escalate critical customer issues that require schedule or scope adjustments.
+- **UX Designer / Researcher**: Partner on user research and usability feedback collection.
+
+---
+
+## Stakeholder / Sponsor
+
+### Role Summary
+Stakeholders and Sponsors provide strategic direction, funding, and organizational authority for projects. They serve as the decision-makers for significant scope, budget, or strategic changes, and are accountable for project outcomes at the business level.
+
+### Responsibilities
+- Approve project charters, business cases, and major scope changes
+- Provide timely input at decision gates (initiation, planning, release approval)
+- Remove organizational blockers that are beyond the Project Manager's authority
+- Maintain awareness of project health through regular status updates
+- Champion the project within the wider organization
+
+### Goals
+- Ensure projects deliver measurable business value
+- Maintain strategic alignment between projects and organizational priorities
+- Enable fast decisions to unblock delivery
+
+### Typical Communication
+- Monthly stakeholder status briefings and milestone updates
+- Decision gate approvals (charter sign-off, go/no-go for release)
+- Escalation notifications when risks materialize or scope changes are required
+- Post-project retrospective summary and outcomes review
+
+### Interactions with Existing Roles
+- **Project Managers**: Primary day-to-day point of contact; PMs escalate blockers and decisions to Sponsors.
+- **Product Managers**: Align on strategic priorities; Sponsors provide business context for roadmap trade-offs.
+- **Security Lead**: Receive briefings on high-severity security risks that require executive action or regulatory reporting.
+- **Tech Lead**: Engage on significant architecture decisions that have strategic or financial implications.
+- **Release Manager**: Provide final go/no-go approval authority for high-stakes or customer-impacting releases.
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+- See [Templates & Checklists](octoacme-templates-and-checklists.md) for RACI, decision log, and other artifacts that reference these personas.
 

@@ -25,8 +25,16 @@ Initiation → Planning → Execution & Tracking → Release & Deployment → Re
 | **Project Manager (PM)** | Coordinates delivery, manages schedules, risks, and communications. Facilitates meetings and maintains transparency. |
 | **Product Manager (PdM)** | Defines outcomes, owns the roadmap and backlog, and measures success against product goals. |
 | **Developers** | Implement features, write tests, participate in design and code reviews, and help identify technical risks. |
-| **QA / Testing** | Validate quality, verify acceptance criteria, and sign off on releases. |
-| **Stakeholders** | Provide business context, inputs, and approvals at key decision gates. |
+| **Tech Lead / Engineering Lead** | Owns technical architecture and engineering standards; bridges engineering and product priorities. |
+| **QA / Test Engineer** | Design test plans, execute testing, track defects, and provide release quality sign-off. |
+| **UX Designer / Researcher** | Champion user experience; conduct research, create designs, and validate usability. |
+| **Security Lead** | Embed security practices throughout development; own security incident response. |
+| **Release Manager** | Orchestrate release planning, coordinate go/no-go decisions, and manage deployment communications. |
+| **Site Reliability / Operations (SRE)** | Ensure system reliability, own incident response for operational events, and manage deployment pipelines. |
+| **Customer Support / Success** | Surface customer feedback; communicate product changes; triage customer-impacting issues. |
+| **Stakeholder / Sponsor** | Provide strategic direction, approve charters and major decisions, and remove organizational blockers. |
+
+_See [Roles & Personas](octoacme-roles-and-personas.md) for full role descriptions including responsibilities, goals, and interaction points._
 
 ## Process Documents
 
@@ -38,6 +46,7 @@ Initiation → Planning → Execution & Tracking → Release & Deployment → Re
 - [Release & Deployment](octoacme-release-and-deployment.md) — Pre-release requirements, deployment checklist, rollback playbook, and release notes template.
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — Structure for running retrospectives and tracking improvement action items.
 - [Roles & Personas](octoacme-roles-and-personas.md) — Detailed responsibilities and communication patterns for each role.
+- [Templates & Checklists](octoacme-templates-and-checklists.md) — Index of all reusable templates including RACI, RAID log, decision log, status update, release readiness checklist, and retrospective action items.
 
 ## Contributing / Updating These Docs
 
