@@ -56,7 +56,7 @@ For any role marked as engaged, add a brief note below about what specific tasks
 ### Data Analyst
 - [ ] KPIs and success metrics defined: [link or N/A]
 - [ ] Instrumentation requirements agreed with Engineering: [Yes / No / N/A]
-- [ ] Dashboard / reporting artefact created: [link or N/A]
+- [ ] Dashboard / reporting artifact created: [link or N/A]
 
 ### Legal / Compliance Advisor
 - [ ] Applicable regulatory frameworks identified: [list or N/A]
