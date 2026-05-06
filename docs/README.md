@@ -41,4 +41,4 @@ Initiation → Planning → Execution & Tracking → Release & Deployment → Re
 
 ## Contributing / Updating These Docs
 
-To propose a change or addition to any process document, open an issue using the **[Add / Update Content to Process Docs](.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)** template in the repository. Include the document(s) affected, the proposed change, and the rationale. Once the issue is reviewed, a pull request can be created to update the relevant file in `docs/`.
+To propose a change or addition to any process document, open an issue using the **[Add / Update Content to Process Docs](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)** template in the repository. Include the document(s) affected, the proposed change, and the rationale. Once the issue is reviewed, a pull request can be created to update the relevant file in `docs/`.
